@@ -1,0 +1,50 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#Custom#
+*_log
+
+*assets/data/*
+*application/cache/*
+*application/config/database.php
+*application/config/development/database.php
+*application/config/live/database.php
+*application/config/staging/database.php
+
+# Ignore Smarty compiled templates
+application/cache/smarty/compiled/*.tpl.php
